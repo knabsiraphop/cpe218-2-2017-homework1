@@ -2,7 +2,9 @@
 public class Homework1 {
     public static Tree tree = new Tree();
     public static String input;
-	public static void main(String[] args) {
+    public static Node completeTree;
+
+    public static void main(String[] args) {
 
         input = "251-*32*+";
         Node root = new Node(input.charAt(input.length()-1));

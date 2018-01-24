@@ -2,7 +2,7 @@
  * Created by qowie on 1/21/2018.
  */
 public class Tree {
-    public Node root;
+    public static Node root;
 
     public Tree(){
         root = null;
